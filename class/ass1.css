@@ -1,0 +1,32 @@
+.container1 {
+  border: solid 1px rgb(56, 55, 55);
+  border-radius: 5px;
+  padding: 30px;
+  height: 220px;
+  width: 610px;
+}
+.one {
+  background-color: rgb(199, 227, 223);
+  border-radius: 5px;
+  font-size: 1.7rem;
+  padding: 10px;
+  height: 200px;
+  width: 33.33%;
+  float: left;
+}
+.two {
+  background-color: rgb(199, 227, 223);
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 1.7rem;
+  height: 200px;
+  width: 33.33%;
+  float: right;
+}
+.mid {
+  width: 20%;
+  float: left;
+  padding: 10px;
+  font-size: 1.7rem;
+  text-align: left;
+}
