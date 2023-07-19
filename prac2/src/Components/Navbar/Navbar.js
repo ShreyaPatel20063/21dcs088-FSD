@@ -9,7 +9,7 @@ const Navbar = () => {
       <AppBar sx={{background: '#009485'}}>
         <Toolbar>
         <DiamondIcon />
-          <Tabs sx={{marginLeft: 'auto'}} textColor = "inherit" >
+          <Tabs sx={{marginLeft: 'auto'}} textColor = "#000" >
 
             <Tab label="Home" component={Link} to="/" />
             <Tab label="About" component={Link} to="/About" />
