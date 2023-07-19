@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { AppBar,Tabs, Tab, Toolbar, Typography } from "@mui/material";
 import DiamondIcon from '@mui/icons-material/Diamond';
 
@@ -10,13 +11,11 @@ const Navbar = () => {
         <DiamondIcon />
           <Tabs sx={{marginLeft: 'auto'}} textColor = "inherit" >
 
-            <Tab label="Home" />
-            <Tab label="About" />
-            <Tab label="Contact" />
+            <Tab label="Home" component={Link} to="/" />
+            <Tab label="About" component={Link} to="/About" />
+            <Tab label="Contact" component={Link} to="/Contact" />
             
-
-
-          </Tabs>
+            </Tabs>
         </Toolbar>
       </AppBar>
     </React.Fragment>
